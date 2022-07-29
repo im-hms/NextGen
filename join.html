@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kings Park</title>
+    <!--============== Link Css==============-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body class="body">
+    <!--============ Header============-->
+    <!-- <div class="home__bg-2 slider"> -->
+        <header class="header header-2">
+            <nav class="nav__container">
+                <a class="logo" href="index.html"><img src="img/logo-main-color-reverse_845fb81c.svg" alt="logo"></a>
+    
+                <div class="nav__menu">
+                    <ul class="nav__names">
+                        <li class="nav__links">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__links">
+                            <a href="index.html" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__links">
+                            <a href="index.html" class="nav__link">Membership</a>
+                        </li>
+                        <li class="nav__links">
+                            <a href="index.html" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__links">
+                            <a href="index.html" class="nav__link">Location</a>
+                        </li>
+                        <li class="nav__links">
+                            <a href="index.html" class="nav__link">Contact Us</a>
+                        </li>
+                        <li class="nav__links">
+                            <a href="join.html" class="nav__link">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="nav__btn">
+                    <!--Theme Change Button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                </div>
+            </nav>
+        </header>
+<!-- =================== Form ================== -->
+        <section class="form">
+            <div class="form__head">
+                <h2 class="section__title">Details</h2>
+        <span class="section__subtitle">Fill out your details here and we’ll be in touch to
+            answer any questions, organise an obiligation-free tour of Next Gen Kings Park
+            and help you experience life, reimagined.</span>
+            </div>
+
+            <div class="form__main">
+                <div class="form__bg">
+                    <div class="form__in">
+                    <div class="form__data">
+                        <div class="form__input">
+                        <input type="text" placeholder="First Name...">
+                        <input type="text" placeholder="Last Name...">
+                        <input type="email" placeholder="Email Address...">
+                        <input type="text" placeholder="Phone Number...">
+                        <textarea name="comment" id="" cols="30" rows="3.5" placeholder="Any Message... "></textarea>
+                        </div>
+                        <div class="chk__box">
+            
+                            <span class="section__subtitle-2">
+                                I agree to Next Gen contacting me with future offers and promotions. <input type="checkbox">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form__btn">
+                    <a href="#" class="button button--flex button--small-3 home__button">
+                    SUBMIT
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= Footer ================= -->
+    <footer>
+        <div class="footer__bg">
+        <div class="footer__main">
+            <div class="footer__data">
+                <div class="footer__copy">
+                    © 2022 Next Gen Health & Lifestyle Clubs
+                </div>
+            </div>
+            <div>
+                <span class="home__line-2"></span>
+            </div>
+            <div class="footer__privacy">
+                <a href="https://www.nextgenclubs.com.au/images/Library/DownloadableFiles/au_privacy_statement.pdf" class="footer__privacy">Privacy Statement</a>
+            </div>
+            <div>
+                <span class="home__line-2"></span>
+            </div>
+            <div class="footer__information">
+                <a href="https://www.nextgenclubs.com.au/" class="information">Investor Information</a>
+            </div>
+
+        </div>
+        </div>
+    </footer>
+
+
+        <!--==================== JS Link ====================-->
+
+    <script src="main.js"></script>
+<!-- ================== For Sticky navbar ================ -->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>
